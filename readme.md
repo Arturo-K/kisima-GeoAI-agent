@@ -114,11 +114,7 @@ The application will open in your browser at `http://localhost:8001`
 
 ## Contributing
 
-This is a portfolio/demo project. Feel free to fork and adapt for your needs!
-
-## License
-
-Apache License - feel free to use this for your portfolio or projects.
+This is a public and open-source file with the *Apache 2.0* license. Feel free to fork and adapt for your needs!
 
 ## Learning Resources
 
@@ -132,6 +128,7 @@ I Built this as a portfolio project demonstrating:
 - AI agent development with LangGraph
 - Natural language to geospatial query translation
 - Professional software architecture
+
 
 
 
