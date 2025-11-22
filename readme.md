@@ -1,8 +1,8 @@
 # Kisima GeoAgent for Seismic Data Analysis
 
-This prototype demonstrate Kisima GeoAI functionality: An AI-powered geospatial analysis platform that translates natural language queries into seismic risk assessments and spatial analyses. Built with LangChain, LangGraph, Ollama and Streamlit.
+This prototype demonstrate Kisima GeoAI functionality: An AI-powered geospatial analysis platform that translates natural language queries into seismic risk assessments and spatial analyses. Built with LangChain, LangGraph, Ollama and Gradio.
 
-![Platform Demo](https://via.placeholder.com/800x400/667eea/ffffff?text=GeoAI+Platform+Demo)
+![Platform Demo](media/kisima-GeoAI-demo)
 
 ## Overview
 
@@ -20,8 +20,7 @@ This application demonstrates advanced GeoAI capabilities by combining:
 - Building density calculations
 
 ### Data Visualization
-- Interactive Folium maps
-- Real-time metric updates
+- Interactive Folium map
 - Layered geospatial data display
 - Custom styling for risk zones
 
@@ -35,14 +34,15 @@ This application demonstrates advanced GeoAI capabilities by combining:
 ## Architecture
 
 ```
-geoai-mvp/
-├── app.py                      # Streamlit UI with chat interface
+geoAI-agent/
+├── app.py                      # Gradio UI with chat interface
 ├── agent/
-│   ├── __init__.py
+│   ├── config.py
 │   ├── graph.py               # LangGraph agent orchestration
 │   ├── tools.py               # Geospatial analysis tools
 │   └── prompts.py             # System prompts and templates
 ├── data/
+│   └── data_scraper.py            #data scraping tool (will be added to agent capability later)
 │   └── nairobi_buildings.geojson  # Sample geospatial data
 ├── requirements.txt
 ├── .env.example
@@ -106,10 +106,10 @@ Place your `example.geojson` file in the `data/` directory.
 ### Running the Application
 
 ```bash
-streamlit run app.py
+python app.py
 ```
 
-The application will open in your browser at `http://localhost:8501`
+The application will open in your browser at `http://localhost:8001`
 
 
 ## Contributing
@@ -124,7 +124,6 @@ Apache License - feel free to use this for your portfolio or projects.
 
 - [LangChain Documentation](https://python.langchain.com/)
 - [LangGraph Guide](https://langchain-ai.github.io/langgraph/)
-- [Streamlit Docs](https://docs.streamlit.io/)
 - [GeoPandas Tutorial](https://geopandas.org/)
 
 ## About
@@ -132,7 +131,6 @@ Apache License - feel free to use this for your portfolio or projects.
 I Built this as a portfolio project demonstrating:
 - AI agent development with LangGraph
 - Natural language to geospatial query translation
-- Modern web UI design with Streamlit
 - Professional software architecture
 
 ---
