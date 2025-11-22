@@ -2,7 +2,7 @@
 
 This prototype demonstrate Kisima GeoAI functionality: An AI-powered geospatial analysis platform that translates natural language queries into seismic risk assessments and spatial analyses. Built with LangChain, LangGraph, Ollama and Gradio.
 
-![Platform Demo](media/kisima-GeoAI-demo)
+![Platform Demo](media/kisima-GeoAI-demo.mp4)
 
 ## Overview
 
@@ -136,3 +136,4 @@ I Built this as a portfolio project demonstrating:
 ---
 
 **Note**: This is a demonstration project. For production use, implement proper authentication, rate limiting, and data validation.
+
