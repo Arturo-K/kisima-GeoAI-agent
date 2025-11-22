@@ -74,8 +74,8 @@ geoAI-agent/
 
 1. **Clone the repository**
 ```bash
-git clone <your-repo-url>
-cd geoai-mvp
+git clone https://github.com/Arturo-K/kisima-GeoAI-agent
+cd kisima-GeoAI-agent
 ```
 
 2. **Create & activate virtual environment**
@@ -136,4 +136,5 @@ I Built this as a portfolio project demonstrating:
 ---
 
 **Note**: This is a demonstration project. For production use, implement proper authentication, rate limiting, and data validation.
+
 
