@@ -133,8 +133,5 @@ I Built this as a portfolio project demonstrating:
 - Natural language to geospatial query translation
 - Professional software architecture
 
----
-
-**Note**: This is a demonstration project. For production use, implement proper authentication, rate limiting, and data validation.
 
 
